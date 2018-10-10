@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PHP</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../apunts.css">
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header >
+      <div class="overlay">
+          <h1>PHP</h1></div>
+  </header>
+
+
+    <h2>Get Started</h2>
+      <p> S'utilitza per interectuar en fitxers i més, es troba dins del body, un exemple:</p>
+      <pre class="code">
+        &lt?php
+          echo "Mira el codi per veure aquest comentari";
+        ?&gt</pre>
+      <p> Per escriure variables en comptes de fer <i>var i</i> com en JS, el que
+        fem és posar <i>$x</i> com per exeple:</p>
+      <pre class="code">
+        &lt?php
+        $x = 5;
+        echo $x;
+        ?&gt</pre>
+      <p>Hi ha multiples manreres de comentar el codi, amb #, //, /*</p>
+      <p>No distingeix entre majuscules i minuscules. Per imprimir una caracteristica
+        en el codi el que s'ha de fer és crear la variable com hem dit anteriorment i
+        si per exemple vols imprimr s'ha de fer: </p>
+      <pre class="code">
+        echo "El meu color preferit és ". $color . ".";
+      </pre>
+
+      <h3>Variables</h3>
+      <p> Si creem una dinció dins del php, les variables fora de la funció no es poden utilitzar
+        tan cual, les hem de declarar global: </p>
+      <pre class="code">
+        $x = 5;
+        $y = 10;
+        function myTest() {
+            global $x, $y;
+            $y = $x + $y;
+        }
+        myTest();
+        echo "&ltp> la variable és la $y&lt/p>"; // outputs 15
+      </pre>
+      <p>També es pot escriure <code>$GLOBALS['x']</code> per a cridar la variable</p>
+      <p>Si posem dins d'una finció <code>static $x = 0;</code> aquesta variable només
+        es "declara" una vegada. <p>
+
+      <h3>Echo and print</h3>
+      <p>Facil i sencillo, <code>echo === print</code></p>
+
+      <h3>Data types</h3>
+      <p> Amb la comanda <code>var_dump($algunaVariable)</code>, podem veure el tipus de
+        variable que és i el seu contingut</p>
+      <p><i>OBJECT</i></p>
+      <pre class="code">
+        class Car {
+          function Car(){
+            $this->model = "Batmobile";
+          }
+        }
+
+        $herbie = new Car();
+
+        echo $herbie->model;
+      </pre>
+
+      <h3>Strings</h3>
+      <p>La funció <code>strlen("Inserte su frase aqui")</code> et retorna la length,
+        en canvi tb tenim el contador de paraules <code>str_word_count("Frase aqui")
+        </code></p>
+      <p><code>strrev("Te revierte lo que dices aqui tete")</code></p>
+      <p><code>strpos("Hello world!", "world");</code></p>
+</body>
+</html>

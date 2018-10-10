@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Git </title>
+  <link rel="stylesheet" type="text/css" href="../apunts.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <header >
+      <div class="overlay">
+          <h1>Git</h1>
+  </header>
+
+  <h2>Getting started with Git</h2>
+  <p><a href="./github-git-cheat-sheet.pdf"><i>Clicka aqui per obrir el pdf de Git!
+  </i></a></p>
+    <p>Git és un programari de sistema de control de versions dissenyat per
+       Linus Torvalds, pensat en l'eficiència i confiabilitat de manteniment
+       de versions d'aplicacions amb una enorme quantitat de fitxers de codi
+       font. Tots els usuaris tenen una copia del code. </p>
+    <h3>Configuració<h3>
+      <p class="code">git config --global user.name "Aina Palacios"
+        <br>git config --global user.email "apalacios@asmws.com"
+        <br> git config --list
+      </p>
+    <h3>Comandes</h3>
+      <p>Help:</p>
+      <p class="code">git help < verb > <br>git < verb > --help</p>
+  <h2>Initialize a repository from existing cose</h2>
+    <p class="code"> git init
+    <br>//Ens apareix:
+    <br>aina@aina-ThinkPad-E550:~/Desktop/ASM/Git/gitdemo$ git init
+    <br>Initialized empty Git repository in /home/aina/Desktop/ASM/Git/gitdemo/.git/
+    <br>aina@aina-ThinkPad-E550:~/Desktop/ASM/Git/gitdemo$ ls -la
+    <br>total 12
+    <br>drwxr-xr-x 3 aina aina 4096 jul 11 09:15 .
+    <br>drwxrwxr-x 3 aina aina 4096 jul 11 08:59 ..
+    <br>drwxr-xr-x 7 aina aina 4096 jul 11 09:15 .git</p>
+    <p>Per a borrar un ,git existent el que haurem de fer és aquesta comanda en el directori on està:</p>
+    <p class="code">rm -rf .git</p>
+    <h3>Add gitignore file</h3>
+      <p>Utilitzes el comando següent al terminal per crear un gitignore:</p>
+      <p class="code">touch .gotignore</p>
+      <p>I escribim aixó al .gitignore</p>
+      <p class="code">.DS_Store
+      <br>.project
+      <br>*.pyc</p>
+      <p><bhttps://mail.google.com/mail/u/0/#inbox/164884d96bbaa666r>Tenim 3 seccions, la <b>working directory</b>, la <b>Starging Area</b> i <b>.git directory (Repository)</b>.
+      <br>En el working directory és on modifiquem els files u els creem o borrem.
+      <br>La staging area es on organitzem que volem <i>commited</i>, afegir codi retocat</p>
+    <h3>Add files to staging area</h3>
+      <p class="code">git add -A//Per exemple .gitignore, -A es afegir tot
+        <br>git status</p>
+      <p>Per a treure algun element committed, fem:</p>
+      <p class="code"> git reser nom.fitxer</p>
+     <p> Quan fem la comanda següen, el fitcher queda comentat i es processa, ja no es pot liminar:</p>
+     <p class="code">git commit -m "Missatge que vols donar al que has fet"
+     <br>git log //veure fitxers commited</p>
+
+
+  <h2>Cloning a remote repo</h2>
+    <p class="code">git clone < url > < where to clone >
+    <br>git remote -v //Info de on es troba aquests git
+  <br>git branh -a //Mostra les branques (remotes i locals)</p>
+  <h3>Pushing changes</h3>
+    <p>Amb el copmando:</p>
+    <p class="code">get diff</p>
+    <p>Pots veure els canvis que has fet de manera local. Un signe negatiu indica el que has tret i en un
+      signe positiu el que has posat nou
+      <br>Commitem el que hem fet amb <i>add -A</i>i seguidament <i>git commit -m "Missatge"</i>
+      <br>Ara tenim 2 comandes més,: <i>pull</i> i <i>push</i>. Apliquem la comanda:</p>
+    <p class="code">git pull origin master</p>
+    <p>Per asegurar-nos estar al dia amb els codis i que ningú hagi fet canvis, i seguidament
+    fem <i>push</i></p>
+    <p class="code">git push origin master</p>
+
+  <h2>Common workflow</h2>
+    <h3>Create a branch for desired feature</h3>
+    <p class="code"> git branch nom.branca <br>git checkout nom.branca</p>
+    <h3>Afert commit, push branch to remote</h3>
+    <p class="code"> git push -u origin nom.branca <br>git bramch -a</p>
+    <h3>Marge a branch</h3>
+    <p class="code"> git checkout master
+      <br>git pull origin master
+      <br>git branch --merged
+      <br>git merge nom.branca
+      <br>git push origin marser</p>
+    <h3>Deleting a branch</h3>
+    <p class="code"> git checkout master
+      <br>git branch --merged
+      <br>git branch -d nom.branca
+      <br>git branch -a
+      <br>git push origin --delete nom.branca</p>
+
+</body>
+  <div class="footer">Git</div>
+</html>

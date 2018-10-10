@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> BS </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../apunts.css">
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header >
+      <div class="overlay">
+          <h1>BS4</h1>
+  </header>
+<h2>Get Started</h2>
+  <p>Per començar, necesitem posar html5 per poder utilitzar BS4</p>
+  <p class="code">< !DOCTYPE html >
+    <br>< html lang="en" >
+      <br>< head >
+        <br>< meta charset="utf-8" >
+    <br>  < /head >
+    <br>< /html ><p>
+  <p>I en el head:</p>
+      <p class="code">< meta name="viewport" content="width=device-width,
+         initial-scale=1" ><p>
+  <p>Hi ha diferents <b>containers</b>, el <i>.container</i> i el <i>.container-fluid</i>
+    que ocupa tot l'espai, no es fix.</p>
+
+  <h2>Grid Classes<h2>
+    <p>Sempre són 12, després si els vols dividir a més has d fer-ho amb els comandos <i>.col- .col-sm- .col-md- .col-lg-
+      .col-xl-</i> que van de més petites a més grans <p>
+
+  <h2>Typography</h2>
+    <p>Pots posar:</p>
+    <p class="code">< h1 class="display-1" >Display 1< /h1 ></p>
+    <p>Per poder posar més grans els títols, hi ha de 1-4</p>
+    <p>The small element is used to create a lighter, secondary text in any heading:</p>
+    <p class="code">< h1 >h1 heading < small >secondary text</ small >< /h1 ></p>
+    <p><i>< mark ></i>Per highlight</p>
+    <p><i>< abbr title="El que vulguis">text< /abbr > </i>
+     Perque et surti en plan pregunteta:</p>
+     <p>--> Passa el ratoí per sobre de <abbr title="Universitat Politècnica de Barcelona">UPC</abbr></p>
+    <p>Podem en comtes de fer tota l'estona < br > posar <b>< pre ></b></p>
+    <pre><p class="code">
+      Holi
+      que
+      tal
+      guapi</p></pre>
+
+    <h2>Colors</h2>
+      <p>Use the contextual classes to provide "meaning through colors":</p>
+      <p class="text-muted">This text is muted.</p>
+      <p class="text-primary">This text is important.</p>
+      <p class="text-success">This text indicates success.</p>
+      <p class="text-info">This text represents some information.</p>
+      <p class="text-warning">This text represents a warning.</p>
+      <p class="text-danger">This text represents danger.</p>
+      <p class="text-secondary">Secondary text.</p>
+      <p class="text-dark">This text is dark grey.</p>
+      <p class="text-body">Default body color (often black).</p>
+      <p class="text-light">This text is light grey (on white background).</p>
+      <p class="text-white">This text is white (on white background).</p>
+    <p class="text-danger">S'HA DE POSAR EL LINK AL CSS</p>
+
+
+    <h2>Tables</h2>
+      <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>
+      <div class="container">
+         <table class="table table-hover">
+           <thead>
+             <tr>
+               <th>Firstname</th>
+               <th>Lastname</th>
+               <th>Email</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td>John</td>
+               <td>Doe</td>
+               <td>john@example.com</td>
+             </tr>
+             <tr>
+               <td>Mary</td>
+               <td>Moe</td>
+               <td>mary@example.com</td>
+             </tr>
+             <tr>
+               <td>July</td>
+               <td>Dooley</td>
+               <td>july@example.com</td>
+             </tr>
+             <tr>
+               <td>Caca</td>
+               <td>Cul</td>
+               <td>teta@example.com</td>
+             </tr>
+           </tbody>
+         </table>
+       </div>
+
+
+    <h2>Images</h2>
+    <p>The <i>.rounded</i> class adds rounded corners to an image</p>
+    <p>The <i>.rounded-circle</i> class shapes the image to a circle:</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4"><img src="foto1.jpg" class="rounded-circle"
+           alt="Cachorrito" width="236" height="236">
+        </div>
+        <div class="col-sm-4"><img src="foto2.jpg" class="rounded-circle"
+           alt="Cachorrito" width="236" height="236">
+        </div>
+        <div class="col-sm-4"><img src="foto3.jpg" class="rounded-circle"
+           alt="Cachorrito" width="236" height="236">
+        </div>
+      </div>
+    </div>
+
+  <h2>Jumbotron</h2>
+  <div class="container">
+    <div class="Jumbotron">Aixo es un jumbotron no fluid i és un div class
+       dins de container</div>
+  </div>
+
+  <h2>Alerts!</h2>
+    <div class="container">
+      <h2>Alerts</h2>
+      <p>Alerts are created with the .alert class, followed by a contextual color classes:</p>
+      <div class="alert alert-success">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Success!</strong> Aixo es una cucada
+      </div>
+      <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Info!</strong> Aixo també
+      </div>
+      <div class="alert alert-warning">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Warning!</strong> Pots morir de cuteesa
+      </div>
+      <div class="alert alert-danger">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Danger!</strong> Estas en perill de morir de sobredosi de sucre
+      </div>
+      <div class="alert alert-primary">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Primary!</strong> Indicates an important action.
+      </div>
+      <div class="alert alert-secondary">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Secondary!</strong> Indicates a slightly less important action.
+      </div>
+      <div class="alert alert-dark">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Dark!</strong> Com el meu futur
+      </div>
+      <div class="alert alert-light">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Light!</strong> Com el meu color d <a
+         href="https://static1.perfumeriasabina.com/5008-thickbox_default/crema-solar-protege-y-broncea-spf50-nivea.jpg"
+         class="alert-link">
+          pell</a>
+      </div>
+    </div>
+
+
+
+
+    <h2>Button</h2>
+      <p>Hi ha diferents classes de botons, per temany trobem:</p>
+      <p class="code">
+        <button type="button" class="btn btn-primary btn-lg">Large</button>
+        <button type="button" class="btn btn-primary">Default</button>
+        <button type="button" class="btn btn-primary btn-sm">Small</button>
+      </p>
+      <p>Si posem <i>btn-block</i> a la classe, tenim un botó que ocupa tota la
+        llargada de la pantalla. També es poden fer botons en grups i que es
+      despleguin els botons:</p>
+      <div class="btn-group"><p class="code">
+        <button type="button" class="btn btn-primary">Cosa 1</button>
+        <button type="button" class="btn btn-primary">Cosa 2</button>
+        <div class="btn-group">
+           <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+           Cosa 3
+           </button>
+           <div class="dropdown-menu">
+             <a class="dropdown-item" href="#">Coseta 1</a>
+             <a class="dropdown-item" href="#">Coseta 2</a>
+        </div>
+      </div>
+    </p></div>
+
+
+    <h2>Badges</h2>
+    <p>Badges are used to add additional information to any content. Use the
+      <i>.badge</i> class together with a contextual class (like .badge-secondary)
+       within < span > elements to create rectangular badges. </p>
+       <p class="code"><button type="button" class="btn btn-primary">
+         Messages <span class="badge badge-secondary">4</span>
+       </button></p>
+
+    <h2>Progress Bar</h2>
+    <div class="container">
+      <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%">70%</div>
+      </div>
+    </div>
+
+
+    <h2>Pagination</h2>
+    <div class="container">
+      <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#"><<</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">>></a></li>
+      </ul>
+    </div>
+
+
+    <h2>List Grups</h2>
+    <div class="container">
+        <p>List Group With Contextual Classes</p>
+        <ul class="list-group">
+         <a href="#" class="list-group-item list-group-item-action">Action item</a>
+         <a href="#" class="list-group-item list-group-item-action list-group-item-success">Success item</a>
+         <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Secondary item</a>
+         <a href="#" class="list-group-item list-group-item-action list-group-item-info">Info item</a>
+         <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Warning item</a>
+         <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Danger item</a>
+         <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Primary item</a>
+         <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Dark item</a>
+         <a href="#" class="list-group-item list-group-item-action list-group-item-light">Light item</a>
+        </ul>
+      </div>
+
+
+    <h2>Cards</h2>
+    <p>A card in Bootstrap 4 is a bordered box with some padding around its
+        content. It includes options for headers, footers, content, colors,
+         etc.</p>
+         <div class="container">
+         <div class="card" style="width:400px">
+            <img class="card-img-top" src="doge.png" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">John Doge</h4>
+              <z class="card-text">Meme. Good boy</z>
+              <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo1">Simple collapsible</button>
+              <div id="demo1" class="collapse">
+                <img src="doge.jpg">
+              </div>
+            </div>
+          </div>
+          <br>
+      </div>
+
+
+    <h2>Dropdowns</h2>
+    <div class="container">
+      <div class="btn-group">
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        </div>
+      </div>
+    </div>
+
+    <h2>Collapse</h2>
+    <div class="container">
+      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+      <div id="demo" class="collapse">
+        <img src="doge.jpg">
+      </div>
+   </div>
+
+
+   <h2>Navs, tabs i Dynamic Tabs</h2>
+           <div class="container">
+
+          <br>
+          <!-- Nav pills -->
+          <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#menu1">Menu 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#menu2">Menu 2</a>
+            </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div id="home" class="container tab-pane active"><br>
+              <h3>HOME</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div id="menu1" class="container tab-pane fade"><br>
+              <h3>Menu 1</h3>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="menu2" class="container tab-pane fade"><br>
+              <h3>Menu 2</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                 accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <nav class="navbar navbar-expand-sm ">
+             <form class="form-inline" action="/action_page.php">
+               <div class="input-group">
+                 <div class="input-group-prepend">
+                   <span class="input-group-text">@</span>
+                 </div>
+                 <input type="text" class="form-control" placeholder="Username">
+               </div>
+             </form>
+            </nav>
+      </div>
+
+
+      <h2>Forms</h2>
+      <div class="container">
+        <form class="form-inline" action="/action_page.php">
+         <label for="email" class="mr-sm-2">Email address:</label>
+         <input type="email" class="form-control mb-2 mr-sm-2" id="email">
+         <label for="pwd" class="mr-sm-2">Password:</label>
+         <input type="password" class="form-control mb-2 mr-sm-2" id="pwd">
+         <div class="form-check mb-2 mr-sm-2">
+           <label class="form-check-label">
+             <input class="form-check-input" type="checkbox"> Remember me
+           </label>
+         </div>
+         <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+      </div>
+
+
+    <h2>Input</h2>
+          <p>Per posar coses, fem un imput com el de dalt i posem per exemple
+            textarea o input i amb l'id igual que el label for. Necessitem
+            saber de php per poder "submit" la info. També hi ha check i també
+            tenim lo de browse per seleccionar un imput, un fitxer. </p>
+
+
+        <h2>Carousel</h2>
+        <div class="container">
+            <div id="foticos" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#foticos" data-slide-to="0" class="active"></li>
+            <li data-target="#foticos" data-slide-to="1"></li>
+            <li data-target="#foticos" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="la.jpg" alt="Los Angeles" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+              <img src="chicago.jpg" alt="Chicago" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+              <img src="ny.jpg" alt="New York" width="1100" height="500">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#foticos" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#foticos" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+
+
+  <h2>Modal</h2>
+          <div class="container">
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Click me!
+        </button>
+
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Doge is god an a dog</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <img src="doge.jpg" class="center">
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+        </div>
+        </div>
+        </div>
+
+        </div>
+
+
+    <h2>Tooltips</h2>
+    <div class="container">
+      <a data-toggle="tooltip" data-placement="top" title="Mu bien tete!">
+      Posa el ratolí aqui!</a>
+    </div>
+
+    <h2>Popover</h2>
+    <div class="container">
+      <a  href="" title="Oleee" data-toggle="popover" data-trigger="focus"
+      data-content="Click anywhere in the document to close this popover">Click me</a>
+    </div>
+
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+    </script>
+
+</body>
+  <div class="footer">Git</div>
+</html>

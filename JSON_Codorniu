@@ -1,0 +1,893 @@
+{
+  "data": {
+    "id": 354,
+    "sku": "P1",
+    "name": "Anna de Codorníu Blanc de Blancs Reserva",
+    "attribute_set_id": 12,
+    "price": 0,
+    "status": 1,
+    "visibility": 4,
+    "type_id": "configurable",
+    "created_at": "2017-09-28 17:26:01",
+    "updated_at": "2018-06-30 19:22:09",
+    "weight": 1,
+    "extension_attributes": {
+      "website_ids": [
+        1,
+        2,{
+  "data": {
+    "id": 354,
+    "sku": "P1",
+    "name": "Anna de Codorníu Blanc de Blancs Reserva",
+    "attribute_set_id": 12,
+    "price": 0,
+    "status": 1,
+    "visibility": 4,
+    "type_id": "configurable",
+    "created_at": "2017-09-28 17:26:01",
+    "updated_at": "2018-06-30 19:22:09",
+    "weight": 1,
+    "extension_attributes": {
+      "website_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "category_links": [
+        {
+          "position": 0,
+          "category_id": "26"
+        },
+        {
+          "position": 0,
+          "category_id": "33"
+        },
+        {
+          "position": 3,
+          "category_id": "78"
+        },
+        {
+          "position": 6,
+          "category_id": "18"
+        },
+        {
+          "position": 0,
+          "category_id": "80"
+        },
+        {
+          "position": 0,
+          "category_id": "91"
+        },
+        {
+          "position": 0,
+          "category_id": "95"
+        },
+        {
+          "position": 0,
+          "category_id": "96"
+        },
+        {
+          "position": 3,
+          "category_id": "111"
+        }
+      ],
+      "stock_item": {
+        "item_id": 352,
+        "product_id": 354,
+        "stock_id": 1,
+        "qty": 1,
+        "is_in_stock": true,
+        "is_qty_decimal": false,
+        "show_default_notification_message": false,
+        "use_config_min_qty": true,
+        "min_qty": 0,
+        "use_config_min_sale_qty": 1,
+        "min_sale_qty": 1,
+        "use_config_max_sale_qty": true,
+        "max_sale_qty": 10000,
+        "use_config_backorders": true,
+        "backorders": 0,
+        "use_config_notify_stock_qty": true,
+        "notify_stock_qty": 1,
+        "use_config_qty_increments": true,
+        "qty_increments": 0,
+        "use_config_enable_qty_inc": true,
+        "enable_qty_increments": false,
+        "use_config_manage_stock": true,
+        "manage_stock": false,
+        "low_stock_date": null,
+        "is_decimal_divided": false,
+        "stock_status_changed_auto": 0
+      },
+      "configurable_product_options": [
+        {
+          "id": 8988,
+          "attribute_id": "174",
+          "label": "Format",
+          "position": 1,
+          "values": [
+            {
+              "value_index": 164
+            },
+            {
+              "value_index": 444
+            },
+            {
+              "value_index": 165
+            }
+          ],
+          "product_id": 354
+        },
+        {
+          "id": 8989,
+          "attribute_id": "186",
+          "label": "Size",
+          "position": 0,
+          "values": [
+            {
+              "value_index": 173
+            },
+            {
+              "value_index": 174
+            },
+            {
+              "value_index": 175
+            }
+          ],
+          "product_id": 354
+        }
+      ],
+      "configurable_product_links": [
+        163,
+        506,
+        165,
+        508,
+        164,
+        507
+      ]
+    },
+    "product_links": [
+      {
+        "sku": "P1",
+        "link_type": "related",
+        "linked_product_sku": "6-anna-mini-cubitera",
+        "linked_product_type": "bundle",
+        "position": 1
+      },
+      {
+        "sku": "P1",
+        "link_type": "related",
+        "linked_product_sku": "annablancopas",
+        "linked_product_type": "bundle",
+        "position": 2
+      },
+      {
+        "sku": "P1",
+        "link_type": "related",
+        "linked_product_sku": "packannablandeblancscopas",
+        "linked_product_type": "bundle",
+        "position": 3
+      },
+      {ositio
+        "sku": "P1",
+        "link_type": "upsell",
+        "linked_product_sku": "P164",
+        "linked_product_type": "configurable",
+        "position": 4
+      },
+      {
+        "sku": "P1",
+        "link_type": "upsell",
+        "linked_product_sku": "12574",
+        "linked_product_type": "simple",
+        "position": 5
+      },
+      {
+        "sku": "P1",
+        "link_type": "upsell",
+        "linked_product_sku": "A_WN012822",
+        "linked_product_type": "simple",
+        "position": 6
+      }
+    ],
+    "options": [],
+    "media_gallery_entries": [
+      {
+        "id": 2087,
+        "media_type": "image",
+        "label": null,
+        "position": 3,
+        "disabled": true,
+        "types": [
+          "img_vinification"
+        ],
+        "file": "/p/1/p1_elaboracion_2.jpg"
+      },
+      {
+        "id": 5064,
+        "media_type": "image",
+        "label": null,
+        "position": 3,
+        "disabled": false,
+        "types": [
+          "widget_image"
+        ],
+        "file": "/a/n/anna_codorniu_blanc_de_blancs_3.jpg"
+      },
+      {
+        "id": 2088,
+        "media_type": "image",
+        "label": null,
+        "position": 4,
+        "disabled": true,
+        "types": [
+          "img_viticulture"
+        ],
+        "file": "/p/1/p1_uva_2.jpg"
+      }
+    ],
+    "tier_prices": [],
+    "custom_attributes": [
+      {
+        "attribute_code": "description",
+        "value": "Planificamos el momento óptimo de vendimia para cada variedad. Tras el despalillado y prensado de la uva obtenemos los mostos,los cuales fermentan a una temperatura de entre 15 ºC y 17 ºC. Una vez realizadas todas las fermentaciones y estabilizados los vinos, se realiza el ensamblaje y posterior tiraje siguiendo el método tradicional. Las botellas pasan a las cavas subterráneas (a una temperatura inferior a 17 ºC) donde tiene lugar la segunda fermentación seguida de un período de crianza. En total, el vino pasará un mínimo de 15 meses en las cavas, tras los cuales tiene lugar el removido (decantación de las botellas para facilitar la aglutinación y posterior eliminación de sedimentos) y el degüelle, momento en el que se extraen las lías depositadas tras la segunda fermentación.Posteriormente se dosifica una cantidad de licor de expedición que determinará el contenido en azúcares residuales del cava.Finalmente, se tapa la botella definitivamente con un tapón de corcho."
+      },
+      {
+        "attribute_code": "short_description",
+        "value": "Las uvas utilizadas para la elaboración de Anna de Codorníu proceden de dos zonas vitivinícolas bien distintas. La variedad Chardonnay procede de viñedos propios situados en la región de clima más continental de la D.O. Cava, en Lleida, hecho que favorece una óptima concentración y le confiere frescor y más capacidad de envejecimiento, así como también más cuerpo y mayor intensidad en la uva. Los sistemas de cultivo siguen los criterios de producción integrada y están especialmente adaptados a la elaboración de espumosos. La vendimia tiene lugar hacia mediados de agosto y siempre se lleva acabo durante la noche, con el fin de mantenerlas uvas lo más frescas posible y así mantener sus aromas íntegros. Las variedades Xarel·lo,Macabeo y Parellada proceden de viñedos seleccionados por nuestros equipos de viticultura y enología en la zona del Penedés,donde estas variedades muestran toda su tipicidad: un buen nivel de acidez, frescura y aromas cítricos y florales."
+      },
+      {
+        "attribute_code": "image",
+        "value": "https://www.codorniu.com/media/catalog/product/cache/122b61bfb663175d7f1bbb5dbb7f535b/p/o/portada_regala_codorniu_2_castellano.jpg"
+      },
+      {
+        "attribute_code": "small_image",
+        "value": "no_selection"
+      },
+      {
+        "attribute_code": "thumbnail",
+        "value": "no_selection"
+      },
+      {
+        "attribute_code": "category_ids",
+        "value": [
+          "26",
+          "33",
+          "78",
+          "18",
+          "80",
+          "91",
+          "95",
+          "96",
+          "111"
+        ]
+      },
+      {
+        "attribute_code": "options_container",
+        "value": "container2"
+      },
+      {
+        "attribute_code": "required_options",
+        "value": "1"
+      },
+      {
+        "attribute_code": "has_options",
+        "value": "1"
+      },
+      {
+        "attribute_code": "url_key",
+        "value": "anna-de-codorniu-blanc-de-blancs-bk"
+      },
+      {
+        "attribute_code": "tax_class_id",
+        "value": "4"
+      },
+      {
+        "attribute_code": "gift_message_available",
+        "value": "0"
+      },
+      {
+        "attribute_code": "tipo_producto",
+        "value": "19"
+      },
+      {
+        "attribute_code": "do",
+        "value": "54"
+      },
+      {
+        "attribute_code": "brand",
+        "value": "193"
+      },
+      {
+        "attribute_code": "awards",
+        "value": "733,740,752,756,765,768,774,779,786,787,805,817,820,822,810"
+      },
+      {
+        "attribute_code": "grape_type_filter",
+        "value": "90,89,88,87"
+      },
+      {
+        "attribute_code": "grape_variety_1",
+        "value": "99"
+      },
+      {
+        "attribute_code": "grape_variety_2",
+        "value": "107"
+      },
+      {
+        "attribute_code": "grape_variety_3",
+        "value": "417"
+      },
+      {
+        "attribute_code": "variety_percentage_1",
+        "value": "133"
+      },
+      {
+        "attribute_code": "variety_percentage_2",
+        "value": "136"
+      },
+      {
+        "attribute_code": "variety_percentage_3",
+        "value": "143"
+      },
+      {
+        "attribute_code": "notacata_vista",
+        "value": "En vista, se aprecia un color amarillo brillante con reflejos verdosos. De burbuja fina y persistente que forma un continuo rosario"
+      },
+      {
+        "attribute_code": "notacata_nariz",
+        "value": "En nariz se aprecian notas cítricas y de fruta tropical junto a más complejos aromas de crianza (tostados, brioche) que enriquecen la paleta aromática"
+      },
+      {
+        "attribute_code": "notacata_boca",
+        "value": "En boca es cremoso, amplio y persistente."
+      },
+      {
+        "attribute_code": "pairing",
+        "value": "Cava muy gastronómico, es un buen aliado para acompañar de inicio a fin un menú: entrantes, salteados de verduras, pescados, mariscos, carnes braseadas, postres… y muchas preparaciones más."
+      },
+      {
+        "attribute_code": "grado",
+        "value": "426"
+      },
+      {
+        "attribute_code": "formato",
+        "value": "167"
+      },
+      {
+        "attribute_code": "sap_code",
+        "value": "P1"
+      },
+      {
+        "attribute_code": "enologo",
+        "value": "<p><img src=\"{{media url=\"wysiwyg/img-somelier.jpg\"}}\" alt=\"\" /></p>\r\n<p class=\"enologo_name\"><strong>BRUNO COLOMER</strong></p>\r\n<p class=\"enologo_subtitle\">ENÓLOGO DE CODORNÍU</p>"
+      },
+      {
+        "attribute_code": "macro_type",
+        "value": "176"
+      },
+      {
+        "attribute_code": "dosaje",
+        "value": "179"
+      },
+      {
+        "attribute_code": "sulfites",
+        "value": "186"
+      },
+      {
+        "attribute_code": "awards_type_filter",
+        "value": "189,451,453,454,457"
+      },
+      {
+        "attribute_code": "envejecimiento",
+        "value": "216"
+      },
+      {
+        "attribute_code": "eco",
+        "value": "192"
+      },
+      {
+        "attribute_code": "second_discount",
+        "value": "0"
+      },
+      {
+        "attribute_code": "limited_units",
+        "value": "0"
+      },
+      {
+        "attribute_code": "new_batch",
+        "value": "0"
+      },
+      {
+        "attribute_code": "is_new",
+        "value": "0"
+      },
+      {
+        "attribute_code": "widget_image",
+        "value": "/a/n/anna_codorniu_blanc_de_blancs_3.jpg"
+      },
+      {
+        "attribute_code": "img_vinification",
+        "value": "/p/1/p1_elaboracion_2.jpg"
+      },
+      {
+        "attribute_code": "img_viticulture",
+        "value": "/p/1/p1_uva_2.jpg"
+      },
+      {
+        "attribute_code": "seo_longtext",
+        "value": "<p style=\"text-align: justify;\">Anna de Codorníu Blanc de Blancs Reserva es una edición única para gastronomía selecta. La vivacidad, el frescor y la frutosidad de Anna se enriquecen con una crianza en cavas de más de 15 meses, que lo convierte en la compañía perfecta de nuestra gastronomía.</p>"
+      },
+      {
+        "attribute_code": "in_html_sitemap",
+        "value": "1"
+      },
+      {
+        "attribute_code": "use_in_crosslinking",
+        "value": "1"
+      },
+      {
+        "attribute_code": "in_xml_sitemap",
+        "value": "1"
+      }
+    ]
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "accept-ranges": "bytes",
+    "cache-control": "public, max-age=0",
+    "content-length": "8656",
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Mon, 16 Jul 2018 11:10:16 GMT",
+    "etag": "W/\"21d0-16492c7b781\"",
+    "last-modified": "Fri, 13 Jul 2018 08:35:19 GMT",
+    "x-powered-by": "Express"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "method": "get",
+    "url": "http://localhost:8080/static/P1.json"
+  },
+  "request": {}
+}
+        3,
+        4,
+        5
+      ],
+      "category_links": [
+        {
+          "position": 0,
+          "category_id": "26"
+        },
+        {
+          "position": 0,
+          "category_id": "33"
+        },
+        {
+          "position": 3,
+          "category_id": "78"
+        },
+        {
+          "position": 6,
+          "category_id": "18"
+        },
+        {
+          "position": 0,
+          "category_id": "80"
+        },
+        {
+          "position": 0,
+          "category_id": "91"
+        },
+        {
+          "position": 0,
+          "category_id": "95"
+        },
+        {
+          "position": 0,
+          "category_id": "96"
+        },
+        {
+          "position": 3,
+          "category_id": "111"
+        }
+      ],
+      "stock_item": {
+        "item_id": 352,
+        "product_id": 354,
+        "stock_id": 1,
+        "qty": 1,
+        "is_in_stock": true,
+        "is_qty_decimal": false,
+        "show_default_notification_message": false,
+        "use_config_min_qty": true,
+        "min_qty": 0,
+        "use_config_min_sale_qty": 1,
+        "min_sale_qty": 1,
+        "use_config_max_sale_qty": true,
+        "max_sale_qty": 10000,
+        "use_config_backorders": true,
+        "backorders": 0,
+        "use_config_notify_stock_qty": true,
+        "notify_stock_qty": 1,
+        "use_config_qty_increments": true,
+        "qty_increments": 0,
+        "use_config_enable_qty_inc": true,
+        "enable_qty_increments": false,
+        "use_config_manage_stock": true,
+        "manage_stock": false,
+        "low_stock_date": null,
+        "is_decimal_divided": false,
+        "stock_status_changed_auto": 0
+      },
+      "configurable_product_options": [
+        {
+          "id": 8988,
+          "attribute_id": "174",
+          "label": "Format",
+          "position": 1,
+          "values": [
+            {
+              "value_index": 164
+            },
+            {
+              "value_index": 444
+            },
+            {
+              "value_index": 165
+            }
+          ],
+          "product_id": 354
+        },
+        {
+          "id": 8989,
+          "attribute_id": "186",
+          "label": "Size",
+          "position": 0,
+          "values": [
+            {
+              "value_index": 173
+            },
+            {
+              "value_index": 174
+            },
+            {
+              "value_index": 175
+            }
+          ],
+          "product_id": 354
+        }
+      ],
+      "configurable_product_links": [
+        163,
+        506,
+        165,
+        508,
+        164,
+        507
+      ]
+    },
+    "product_links": [
+      {
+        "sku": "P1",
+        "link_type": "related",
+        "linked_product_sku": "6-anna-mini-cubitera",
+        "linked_product_type": "bundle",
+        "position": 1
+      },
+      {
+        "sku": "P1",
+        "link_type": "related",
+        "linked_product_sku": "annablancopas",
+        "linked_product_type": "bundle",
+        "position": 2
+      },
+      {
+        "sku": "P1",
+        "link_type": "related",
+        "linked_product_sku": "packannablandeblancscopas",
+        "linked_product_type": "bundle",
+        "position": 3
+      },
+      {
+        "sku": "P1",
+        "link_type": "upsell",
+        "linked_product_sku": "P164",
+        "linked_product_type": "configurable",
+        "position": 4
+      },
+      {
+        "sku": "P1",
+        "link_type": "upsell",
+        "linked_product_sku": "12574",
+        "linked_product_type": "simple",
+        "position": 5
+      },
+      {
+        "sku": "P1",
+        "link_type": "upsell",
+        "linked_product_sku": "A_WN012822",
+        "linked_product_type": "simple",
+        "position": 6
+      }
+    ],
+    "options": [],
+    "media_gallery_entries": [
+      {
+        "id": 2087,
+        "media_type": "image",
+        "label": null,
+        "position": 3,
+        "disabled": true,
+        "types": [
+          "img_vinification"
+        ],
+        "file": "/p/1/p1_elaboracion_2.jpg"
+      },
+      {
+        "id": 5064,
+        "media_type": "image",
+        "label": null,
+        "position": 3,
+        "disabled": false,
+        "types": [
+          "widget_image"
+        ],
+        "file": "/a/n/anna_codorniu_blanc_de_blancs_3.jpg"
+      },
+      {
+        "id": 2088,
+        "media_type": "image",
+        "label": null,
+        "position": 4,
+        "disabled": true,
+        "types": [
+          "img_viticulture"
+        ],
+        "file": "/p/1/p1_uva_2.jpg"
+      }
+    ],
+    "tier_prices": [],
+    "custom_attributes": [
+      {
+        "attribute_code": "description",
+        "value": "Planificamos el momento óptimo de vendimia para cada variedad. Tras el despalillado y prensado de la uva obtenemos los mostos,los cuales fermentan a una temperatura de entre 15 ºC y 17 ºC. Una vez realizadas todas las fermentaciones y estabilizados los vinos, se realiza el ensamblaje y posterior tiraje siguiendo el método tradicional. Las botellas pasan a las cavas subterráneas (a una temperatura inferior a 17 ºC) donde tiene lugar la segunda fermentación seguida de un período de crianza. En total, el vino pasará un mínimo de 15 meses en las cavas, tras los cuales tiene lugar el removido (decantación de las botellas para facilitar la aglutinación y posterior eliminación de sedimentos) y el degüelle, momento en el que se extraen las lías depositadas tras la segunda fermentación.Posteriormente se dosifica una cantidad de licor de expedición que determinará el contenido en azúcares residuales del cava.Finalmente, se tapa la botella definitivamente con un tapón de corcho."
+      },
+      {
+        "attribute_code": "short_description",
+        "value": "Las uvas utilizadas para la elaboración de Anna de Codorníu proceden de dos zonas vitivinícolas bien distintas. La variedad Chardonnay procede de viñedos propios situados en la región de clima más continental de la D.O. Cava, en Lleida, hecho que favorece una óptima concentración y le confiere frescor y más capacidad de envejecimiento, así como también más cuerpo y mayor intensidad en la uva. Los sistemas de cultivo siguen los criterios de producción integrada y están especialmente adaptados a la elaboración de espumosos. La vendimia tiene lugar hacia mediados de agosto y siempre se lleva acabo durante la noche, con el fin de mantenerlas uvas lo más frescas posible y así mantener sus aromas íntegros. Las variedades Xarel·lo,Macabeo y Parellada proceden de viñedos seleccionados por nuestros equipos de viticultura y enología en la zona del Penedés,donde estas variedades muestran toda su tipicidad: un buen nivel de acidez, frescura y aromas cítricos y florales."
+      },
+      {
+        "attribute_code": "image",
+        "value": "no_selection"
+      },
+      {
+        "attribute_code": "small_image",
+        "value": "no_selection"
+      },
+      {
+        "attribute_code": "thumbnail",
+        "value": "no_selection"
+      },
+      {
+        "attribute_code": "category_ids",
+        "value": [
+          "26",
+          "33",
+          "78",
+          "18",
+          "80",
+          "91",
+          "95",
+          "96",
+          "111"
+        ]
+      },
+      {
+        "attribute_code": "options_container",
+        "value": "container2"
+      },
+      {
+        "attribute_code": "required_options",
+        "value": "1"
+      },
+      {
+        "attribute_code": "has_options",
+        "value": "1"
+      },
+      {
+        "attribute_code": "url_key",
+        "value": "anna-de-codorniu-blanc-de-blancs-bk"
+      },
+      {
+        "attribute_code": "tax_class_id",
+        "value": "4"
+      },
+      {
+        "attribute_code": "gift_message_available",
+        "value": "0"
+      },
+      {
+        "attribute_code": "tipo_producto",
+        "value": "19"
+      },
+      {
+        "attribute_code": "do",
+        "value": "54"
+      },
+      {
+        "attribute_code": "brand",
+        "value": "193"
+      },
+      {
+        "attribute_code": "awards",
+        "value": "733,740,752,756,765,768,774,779,786,787,805,817,820,822,810"
+      },
+      {
+        "attribute_code": "grape_type_filter",
+        "value": "90,89,88,87"
+      },
+      {
+        "attribute_code": "grape_variety_1",
+        "value": "99"
+      },
+      {
+        "attribute_code": "grape_variety_2",
+        "value": "107"
+      },
+      {
+        "attribute_code": "grape_variety_3",
+        "value": "417"
+      },
+      {
+        "attribute_code": "variety_percentage_1",
+        "value": "133"
+      },
+      {
+        "attribute_code": "variety_percentage_2",
+        "value": "136"
+      },
+      {
+        "attribute_code": "variety_percentage_3",
+        "value": "143"
+      },
+      {
+        "attribute_code": "notacata_vista",
+        "value": "En vista, se aprecia un color amarillo brillante con reflejos verdosos. De burbuja fina y persistente que forma un continuo rosario"
+      },
+      {
+        "attribute_code": "notacata_nariz",
+        "value": "En nariz se aprecian notas cítricas y de fruta tropical junto a más complejos aromas de crianza (tostados, brioche) que enriquecen la paleta aromática"
+      },
+      {
+        "attribute_code": "notacata_boca",
+        "value": "En boca es cremoso, amplio y persistente."
+      },
+      {
+        "attribute_code": "pairing",
+        "value": "Cava muy gastronómico, es un buen aliado para acompañar de inicio a fin un menú: entrantes, salteados de verduras, pescados, mariscos, carnes braseadas, postres… y muchas preparaciones más."
+      },
+      {
+        "attribute_code": "grado",
+        "value": "426"
+      },
+      {
+        "attribute_code": "formato",
+        "value": "167"
+      },
+      {
+        "attribute_code": "sap_code",
+        "value": "P1"
+      },
+      {
+        "attribute_code": "enologo",
+        "value": "<p><img src=\"{{media url=\"wysiwyg/img-somelier.jpg\"}}\" alt=\"\" /></p>\r\n<p class=\"enologo_name\"><strong>BRUNO COLOMER</strong></p>\r\n<p class=\"enologo_subtitle\">ENÓLOGO DE CODORNÍU</p>"
+      },
+      {
+        "attribute_code": "macro_type",
+        "value": "176"
+      },
+      {
+        "attribute_code": "dosaje",
+        "value": "179"
+      },
+      {
+        "attribute_code": "sulfites",
+        "value": "186"
+      },
+      {
+        "attribute_code": "awards_type_filter",
+        "value": "189,451,453,454,457"
+      },
+      {
+        "attribute_code": "envejecimiento",
+        "value": "216"
+      },
+      {
+        "attribute_code": "eco",
+        "value": "192"
+      },
+      {
+        "attribute_code": "second_discount",
+        "value": "0"
+      },
+      {
+        "attribute_code": "limited_units",
+        "value": "0"
+      },
+      {
+        "attribute_code": "new_batch",
+        "value": "0"
+      },
+      {
+        "attribute_code": "is_new",
+        "value": "0"
+      },
+      {
+        "attribute_code": "widget_image",
+        "value": "/a/n/anna_codorniu_blanc_de_blancs_3.jpg"
+      },
+      {
+        "attribute_code": "img_vinification",
+        "value": "/p/1/p1_elaboracion_2.jpg"
+      },
+      {
+        "attribute_code": "img_viticulture",
+        "value": "/p/1/p1_uva_2.jpg"
+      },
+      {
+        "attribute_code": "seo_longtext",
+        "value": "<p style=\"text-align: justify;\">Anna de Codorníu Blanc de Blancs Reserva es una edición única para gastronomía selecta. La vivacidad, el frescor y la frutosidad de Anna se enriquecen con una crianza en cavas de más de 15 meses, que lo convierte en la compañía perfecta de nuestra gastronomía.</p>"
+      },
+      {
+        "attribute_code": "in_html_sitemap",
+        "value": "1"
+      },
+      {
+        "attribute_code": "use_in_crosslinking",
+        "value": "1"
+      },
+      {
+        "attribute_code": "in_xml_sitemap",
+        "value": "1"
+      }
+    ]
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "accept-ranges": "bytes",
+    "cache-control": "public, max-age=0",
+    "content-length": "8656",
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Mon, 16 Jul 2018 11:10:16 GMT",
+    "etag": "W/\"21d0-16492c7b781\"",
+    "last-modified": "Fri, 13 Jul 2018 08:35:19 GMT",
+    "x-powered-by": "Express"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "method": "get",
+    "url": "http://localhost:8080/static/P1.json"
+  },
+  "request": {}
+}

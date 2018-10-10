@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Node.js </title>
+  <link rel="stylesheet" type="text/css" href="../apunts.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <header >
+      <div class="overlay">
+          <h1>Node.js</h1>
+  </header>
+      <p><a href="https://www.youtube.com/watch?v=TlB_eWDSMt4"><b><i>Click per anar al tutorial de video!</b></i></a></p>
+
+  <p >No tenim document.getElementById(""); Tenim fs.readFile() i http.createServer()</p>
+
+
+  <h2>Com funciona node?</h2>
+      <p>Es asincron, no bloqueja. Tenim un thread que treballa amb diferents request, tb tenim un Event Queue que monitoreja les dades <br>
+        Podem crear un document .js amb funcuions i si cridem la funció dins de la mateixa .js i en el terminal posant $node app.js a la terminal surt, si en la funcio hem posar console.log().
+      <br> No tenimm console.log(window) en Node</p>
+
+
+  <h2>Node Module System</h2>
+      <p> Metodes que ens podem trobar:</p>
+        <p class="code">console.log();<br>setTimeout();<br>
+        claerTimeout();<br>setInterval();<br>clartInterval();<br> window.console.log // Tots els anterios pertanyen a window.tal<br>
+       global //objecte al que podem accedir a les funcions anteriors</p>
+     <p>Hem de intentar no fer funcions de manera global, ja que si hi havia una declarada anteriorment la sobrescriu. Podem crear mòduls, aquests denen id, exports i una serie de carcteristiques que pertanyen al modúl i els mòduls no són variables globals.</p>
+     <p>Pots exportar url i funcions, com a exemple tenim logger.js. Per utlitzar els móduls tenim l exemple a app.js</p>
+       <p class="code">//logger.js <br>function log(message){
+        <br> //Send an HTTP request  <br> console.log(message);  <br> }  <br> module.exports.log = log;  <br> //app.js   <br>var logger = require("./logger");
+        <br>logger.log("Holi guapi");</p>
+      <p>Podem cridar amb node app.js i a la consola essortirà el missatge enviat. Podem en comptes de posar un var tenir una <b>const</b>, que declara una CONSTANT. Per tant no ens sortirà una exepcio
+      <br> Si posem el següent, no exportarem un objecte, sinó una funció:</p>
+          <p class="code">module.exports = log<br>//app.js<br>const log = require("./logger");
+          <br>log("Holi guapi");</p>
+
+
+  <h2>Module Wrapper Function</h2>
+    <p> Aqui en diuen que a logger.js tenim una funció "pare" que està composada per <i> exports, require, module, __filname, __dirname </i> Si fem:</p>
+    <p class="code"> console.log(__filename);<br>console.log(__dirname);</p>
+    <p>A la consola ens apareix el path</p>
+
+
+  <h2>Path Module</h2>
+    <p><a href="https://nodejs.org/api/path.html"><i>Path node.js</i></a></p>
+    <p>Si a app.js podem això:</p>
+    <p class="code"> const path = require("path");
+      <br>var pathObj = path.parse(__filename);
+      <br>console.log(pathObj);</p>
+    <p> En la consola ens apareixerà el <i> root, dir, base, ext i name</i></p>
+  <h2>OS Module</h2>
+    <p><a href="https://nodejs.org/api/os.html"><i>OS node.js</i></a></p>
+    <p>Amb node.js el que fem és executar el java en el server, el que vol dir que podem veure per exemple elements del propi servidor.
+      Aquestes són algunes de les funcions que podem aplicar a app.js amb la variable OS:</p>
+    <p class="code">const os = require("os");
+        <br>var totalMemory = os.totalmem();
+        <br>var freeMemory = os.freemem();
+        <br>console.log("Total Memory "+totalMemory);
+        <br>console.log(`Free Memory ${freeMemory}`);
+        <br>  <br>//Terminal
+        <br>aina@aina-ThinkPad-E550:~/Desktop/ASM/Node.js$ node app.js
+        <br>Total Memory 8087597056
+        <br>Free Memory 1757773824
+    </p>
+
+  <h2>File Systems Module</h2>
+    <p><a href="https://nodejs.org/api/fs.html"><i>File Systems node.js</i></a></p>
+    <p> Exemple en app.js apartat de File Systems. Tenim metodes amb el sufix <b>Sync</b>, aquests s'han d'evitar, ja que en la vida real NO podem usar sincronisme.
+    <br> Els metodes asincrons necessiten un callback</p>
+
+  <h2>Events Module</h2>
+    <p><a href="https://nodejs.org/api/events.html"><i>Events node.js</i></a></p>
+    <p>Cada vegada qeu es consulta l'http creem un event. Com podem veure en el codi
+    d'abaix, la constant comença en majuscula, el que indica que és una <b> class</b></p>
+    <p class="code">const EventEmitter = require("events");</p>
+    <p> Utilitzam el mètode <i>emit</i> del objecte <i> emitte</i> per raise an event the first time (making a noise, emit something)
+    i sempre necessitem primerament un que escolti, que ho farem amb el mètode <i>on</i></p>
+
+  <h2>Events Arguments</h2>
+      <p>A vegades volem pasar arguments amb el emit, ho ferem en forma de objecte de la següent forma: </p>
+      <p class="code"> emitter.on("messageLogged",function(arg){
+          <br>console.log("Oido cocina",arg);
+          <br>});
+          <br>emitter.emit("messageLogged", {id:1, url:"http//"}); </p>
+      <p>A la pantalla tindrem el missatge de emitter.on i els arguments del emitter.emit</p>
+      <h3>Extending EventEmitter</h3>
+      <p>Normalment no ferem servir el objecte <i> emitter</i>, sinó que treballarem directament a la classe.
+      Per tant modifiquem logger.js per tal que es declari alla les constants i s'emeti l'event. Si fem una classe, a dins no
+    podem tenr funcions, sinó que seràn metodes propis de la funció</p>
+
+
+  <h2>HTTP Module</h2>
+      <p>Podem crear un listen a un port i anarn a localhost:3000 ens apareix una nova connexió</p>
+      <p class="code">const http = require("http");
+      <br>const server = http.createServer();
+      <br>server.on("Connection", (socket) => {
+      <br>  console.log("Tenemos un nuevo aqui");
+      <br>});
+      <br>server.listen(3000);
+      <br>console.log("Te escucho lucho");</p>
+
+
+</body>
+  <div class="footer">Node.js</div>
+</html>
